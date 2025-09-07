@@ -67,7 +67,7 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" >
+        <Route exact path="/portfolio-website/" >
           <div className="App">
             <AboutMe />
             <Skills skills={skills} deleteSkill={deleteSkill} addSkill={addSkill} />
@@ -75,7 +75,7 @@ function App() {
             <Experience />
           </div>
         </Route>
-        <Route path="/contact">
+        <Route path="/portfolio-website/contact">
           <ContactMe />
         </Route>
       </Switch>
