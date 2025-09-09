@@ -6,8 +6,8 @@ import Typography from "@mui/material/Typography";
 import Avatar from "@mui/material/Avatar";
 import aditiImage from "./images/aditi.jpg";
 import ArticleIcon from "@mui/icons-material/Article";
-import ContactPageIcon from "@mui/icons-material/ContactPage";
-import {Link} from  'react-router-dom'
+// import ContactPageIcon from "@mui/icons-material/ContactPage";
+// import {Link} from  'react-router-dom'
 
 const AboutMe = () => {
   const viewResume = () => {
