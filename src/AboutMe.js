@@ -99,7 +99,7 @@ const AboutMe = () => {
               >
                 View Resume
               </Button>
-              <Link to="/contact">
+              {/* <Link to="/contact">
               <Button
                 variant="contained"
                 startIcon={<ContactPageIcon />}
@@ -116,7 +116,7 @@ const AboutMe = () => {
               >
                 Contact Me
               </Button>
-              </Link>
+              </Link> */}
             </Box>
           </Grid>
 
