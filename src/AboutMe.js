@@ -21,10 +21,10 @@ const AboutMe = () => {
           position: "relative",
           overflow: "hidden",
           minHeight: "60vh",
+          paddingBottom: "0px",
           display: "flex",
           alignItems: "center",
           px: { xs: 2, md: 8 },
-          py: { xs: 6, md: 10 },
           color: "white",
         }}
       >
@@ -35,7 +35,7 @@ const AboutMe = () => {
             top: 0,
             left: 0,
             width: "100%",
-            height: "60%",
+            height: "80%",
             background:
               "linear-gradient(270deg, #2f2f90, #6a5acd, #90caf9, #2f2f90)",
             backgroundSize: "800% 800%",
